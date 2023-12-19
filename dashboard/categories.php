@@ -15,13 +15,7 @@ include('includes/sidebar.php');
               <!-- pageheader -->
               <div>
                 <h2>Categories</h2>
-                 <!-- breacrumb -->
-                 <nav aria-label="breadcrumb">
-                  <ol class="breadcrumb mb-0">
-                    <li class="breadcrumb-item"><a href="#" class="text-inherit">Dashboard</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Categories</li>
-                  </ol>
-                </nav>
+                
               </div>
               <!-- button -->
               <div>
@@ -57,37 +51,20 @@ include('includes/sidebar.php');
                   <table class="table table-centered table-hover mb-0 text-nowrap table-borderless table-with-checkbox">
                     <thead class="bg-light">
                       <tr>
-                        <th>
-                          <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="checkAll">
-                            <label class="form-check-label" for="checkAll">
-
-                            </label>
-                          </div>
-                        </th>
-                        <th>Icon</th>
+                       
+                        
                         <th> Name</th>
                         <th>Proudct</th>
                         <th>Status</th>
 
-                        <th></th>
+                      
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
 
-                        <td>
-                          <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="categoryOne">
-                            <label class="form-check-label" for="categoryOne">
-
-                            </label>
-                          </div>
-                        </td>
-                        <td>
-                          <a href="#!"> <img src="../assets/images/icons/snacks.svg" alt=""
-                              class="icon-shape icon-sm"></a>
-                        </td>
+                       
+                        
                         <td><a href="#" class="text-reset">Snack & Munchies</a></td>
                         <td>12</td>
 
